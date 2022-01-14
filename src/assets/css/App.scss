@@ -37,3 +37,16 @@
     transform: translateY(0px);
   }
 }
+
+.content {
+  background: #004466;
+
+  &.home {
+    background: url("../image/background.jpg") no-repeat center;
+    background-size: cover;
+  }
+}
+
+.loading-image {
+  padding: 125px 0 225px 0;
+}
